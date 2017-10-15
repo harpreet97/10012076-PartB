@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Temperature Conversion</title>
+    <style type="text/css">
+    .floatleft{
+      float: left;
+      font-size: 20px;
+    }
+    input{
+      background-color: white;
+      color: black;
+    }
+    </style>
+</head>
+<body>
+  <div class="floatleft">
+      
+          <h2>Temperaure Converter</h2>
+          <label>Enter a Temperature:-</label>
+          <input id="far_cel" type="number" placeholder="Type here">
+          
+        <div class="formgroup"><input type="button" value="Convert" id="submit" class="btn btn-success"></div>
+        <div class="formgroup"><input type="button" value="Reset" id="reset" class="btn btn-success"></div>
+        </div>
+        <div class="floatleft" style="margin-left:200px;">
+
+    
+        <h2 style="color:black">Please choose Celsius or Fahrenheit</h2>
+          <label style="color:black">Please enter C or F:</label>
+          <input id="C_F" type="text" >
+        
+      
+        
+  </div>
+ 
+
+  <div style="clear: both;margin-top:50px; text-align: center;" id="Result"></div>
+  
+  <script src="jquery.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>
